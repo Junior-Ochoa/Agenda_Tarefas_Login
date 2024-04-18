@@ -124,7 +124,7 @@ export default function Admin() {
         />
 
         {Object.keys(edit).length > 0 ? (
-          <button className="btn-register" type="submit" >
+          <button className="btn-register" type="submit" style={{ backgroundColor: '#ff0000'}} >
             Atualizar tarefa
           </button>
         ) : (
